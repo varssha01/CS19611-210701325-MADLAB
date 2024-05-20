@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentBasicDetail">
+
+
+
+
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TableRow>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Student Details"
+               android:textAlignment="center"
+               android:textSize="30dp">
+
+           </TextView>
+
+
+       </TableRow>
+       <TableRow>
+
+           <TextView
+               android:layout_width="206dp"
+               android:layout_height="match_parent"
+               android:text="Basic Details"
+               android:textAlignment="center"
+               android:textSize="30dp">
+
+           </TextView>
+
+
+       </TableRow>
+       <TableRow>
+           <TextView
+               android:id="@+id/reg"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Registraion No"/>
+
+           <EditText
+               android:id="@+id/editTextreg"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="text"
+               android:text="registration number" />
+
+
+       </TableRow>
+       <TableRow>
+           <TextView
+               android:id="@+id/name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name"/>
+
+           <EditText
+               android:id="@+id/editTextname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="text"
+               android:text="Name" />
+
+
+       </TableRow>
+       <TableRow>
+           <TextView
+               android:id="@+id/department"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Department"/>
+
+           <EditText
+               android:id="@+id/editTextdep"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="text"
+               android:text="Department" />
+
+
+       </TableRow>
+   </TableLayout>
+
+
+
+
+</FrameLayout>

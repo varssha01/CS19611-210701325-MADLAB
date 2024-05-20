@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentMarkDetails">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mark Details"
+                android:textAlignment="center"
+                android:textSize="30dp">
+
+            </TextView>
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/sslc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S.S.L.C"/>
+
+            <EditText
+                android:id="@+id/editTextsslc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="SSLC Mark" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/hsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H.Sc"/>
+
+            <EditText
+                android:id="@+id/editTexthsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Hsc Mark" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/ug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UG"/>
+
+            <EditText
+                android:id="@+id/editTextug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="UG CGPA" />
+
+
+        </TableRow>
+   </TableLayout>
+
+
+</FrameLayout>
